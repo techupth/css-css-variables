@@ -4,4 +4,14 @@
   margin: 0;
 }
 
-/* Start coding here */
+
+
+.introduction {
+  background-color:cornsilk;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff7f50;
+  font-size: 100px;
+}
