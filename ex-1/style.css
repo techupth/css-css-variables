@@ -1,7 +1,49 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+:root {
+  /* Colors */
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+
+  /* Margins */
+  --margin-lvl-1: 1px;
+  --margin-lvl-2: 5px;
+  --margin-lvl-3: 10px;
+  --margin-lvl-4: 15px;
+  --margin-lvl-5: 20px;
+
+  /* Paddings */
+  --padding-lvl-1: 1px;
+  --padding-lvl-2: 5px;
+  --padding-lvl-3: 10px;
+  --padding-lvl-4: 15px;
+  --padding-lvl-5: 20px;
+
+  /* Fonts */
+  --font-sm: 12px;
+  --font-md: 16px;
+  --font-lg: 20px;
+  --font-xl: 30px;
+  --font-xxl: 50px;
+  --font-xxxl: 100px;
 }
 
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.introduction {
+  background-color: var(--secondary-color); /* สีพื้นหลังเป็นสี Secondary */
+  padding: var(--padding-lvl-5);            /* Padding เป็น Level 5 */
+}
+
+.introduction h1 {
+  color: var(--branding-color);            /* สีตัวอักษรเป็นสี Branding */
+  font-size: var(--font-xxxl);             /* ขนาดตัวอักษรเป็น Triple Extra Large */
+}
