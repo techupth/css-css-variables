@@ -1,7 +1,51 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-/* Start coding here */
+:root {
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --highlight-color: #d2691e;
+  --muted-color: #a9a9a9;
+
+  --margin-1: 1px;
+  --margin-2: 5px;
+  --margin-3: 10px;
+  --margin-4: 15px;
+  --margin-5: 20px;
+
+  --padding-1: 1px;
+  --padding-2: 5px;
+  --padding-3: 10px;
+  --padding-4: 15px;
+  --padding-5: 20px;
+
+    --size-sm: 12px;
+    --size-md: 16px;
+    --size-lg: 20px;
+    --size-xl: 30px;
+    --size-2xl: 50px;
+    --size-3xl: 100px;
+}
+
+.introduction{
+  background-color: var(--secondary-color);
+  padding: var(--padding-5);
+}
+
+h1{
+  color: var(--branding-color);
+  font-size: var(--size-3xl);
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--padding-level-5);
+}
+
+.introduction h1 {
+  color: var(--branding-color);
+  font-size: var(--font-size-xxxl);
+}
